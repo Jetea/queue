@@ -111,7 +111,7 @@ class Worker
      */
     protected function logProcessError(\Exception $e)
     {
-        echo (string) $e;
+        echo (string) $e . "\n";
 
         return ;
     }
